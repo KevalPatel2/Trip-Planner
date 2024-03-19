@@ -25,4 +25,15 @@ Technologies Used:
 - SQLite: Database management system employed for secure storage and retrieval of user data.
 - Google API Places: Integration of Google's Places API to enhance location input and autocomplete functionality.
 
-For any inquiries or suggestions regarding the Trip Planner App, feel free to reach out to patelkeval647@gmail.com or open an issue in the project's repository.
+Screenshots:
+![image](https://github.com/KevalPatel2/Trip-Planner/assets/161761204/26191cce-4480-4499-b178-e14caf43610e)
+
+![image](https://github.com/KevalPatel2/Trip-Planner/assets/161761204/632dcec0-6cf5-4178-804a-b59297169d1c)
+
+![image](https://github.com/KevalPatel2/Trip-Planner/assets/161761204/994a8dcf-6b70-4428-a314-5b28250eb582)
+
+![image](https://github.com/KevalPatel2/Trip-Planner/assets/161761204/31de311c-f1b8-4d9b-965a-2b25a5c13458)
+
+![image](https://github.com/KevalPatel2/Trip-Planner/assets/161761204/fcdf78ca-6f01-4ef6-a9fd-e0018884cdc6)
+
+![image](https://github.com/KevalPatel2/Trip-Planner/assets/161761204/324cd6f8-2aef-4661-9bdb-93d3c90fc17c)
