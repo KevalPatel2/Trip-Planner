@@ -1,0 +1,96 @@
+<!-- checkout_page.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:src="@drawable/logo" />
+
+    <!-- Order Summary -->
+    <TextView
+        android:id="@+id/textViewOrderSummary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ORDER SUMMARY"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"
+        android:textColor="@color/my_primary"/>
+
+    <!-- Display booking details here -->
+    <!-- Include trip information, number of people, additional services, total cost, etc. -->
+
+    <!-- Dynamic TextView to display calculated total cost per person -->
+    <TextView
+        android:id="@+id/textViewTotalCostPerPerson"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Cost per Person: "
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Payment Section -->
+    <!-- Include payment form fields for credit card information, etc. -->
+    <!-- For simplicity, a single EditText for entering card number is shown -->
+    <EditText
+        android:id="@+id/editTextCardNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Card Number"
+        android:inputType="number"
+        android:maxLength="16"
+        android:layout_marginBottom="16dp"/>
+    <!-- Expiry Date -->
+    <EditText
+        android:id="@+id/editTextExpiryDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Expiry Date (MM/YY)"
+        android:inputType="number"
+        android:maxLength="5"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- CVV -->
+    <EditText
+        android:id="@+id/editTextCVV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="CVV"
+        android:inputType="number"
+        android:maxLength="3"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Cardholder Name (optional) -->
+    <EditText
+        android:id="@+id/editTextCardholderName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Cardholder Name (optional)"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Submit Button -->
+    <Button
+        android:id="@+id/buttonSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/my_primary"
+        android:background="@drawable/custom_edittext"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/buttonBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/my_primary"
+        android:background="@drawable/custom_edittext"
+        android:textColor="@color/white"/>
+</LinearLayout>

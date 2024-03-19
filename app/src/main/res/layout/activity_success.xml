@@ -1,0 +1,45 @@
+<!-- activity_success.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/success" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Success!"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your details have been submitted successfully."
+        android:textSize="16sp"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/downloadButton"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Download Free Travel Guide (pdf)"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/my_primary"
+        android:background="@drawable/custom_edittext"/>
+
+    <Button
+        android:id="@+id/rickrollButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="More Travel info"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/my_primary"
+        android:background="@drawable/custom_edittext"/>
+</LinearLayout>

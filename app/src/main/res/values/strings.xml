@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Trip Planner</string>
+    <string name="enter_your_start_point">Enter your start point:</string>
+    <string name="enter_your_destination_point">Enter your destination point:</string>
+    <string name="enter_your_trip_notes">Enter your trip notes...</string>
+    <string name="cost_details">Cost Details:</string>
+    <string name="start_point_description">Start point: </string>
+    <string name="destination_description">Destination: </string>
+
+</resources>
