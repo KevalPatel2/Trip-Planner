@@ -51,7 +51,7 @@ public class DestinationActivity extends AppCompatActivity
         setContentView(R.layout.activity_destination);
 
             // Initialize Places API
-            Places.initialize(getApplicationContext(), "AIzaSyC7i8wMfV0O5mNQvY2NOQvWSkoGo2V_GCM");
+            Places.initialize(getApplicationContext(), "YOUR_API_KEY_HERE");
 
             // Initialize Places Client
             PlacesClient placesClient = Places.createClient(this);
