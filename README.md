@@ -36,4 +36,4 @@ Screenshots:
 
 ![image](https://github.com/KevalPatel2/Trip-Planner/assets/161761204/fcdf78ca-6f01-4ef6-a9fd-e0018884cdc6)
 
-![image](https://github.com/KevalPatel2/Trip-Planner/assets/161761204/324cd6f8-2aef-4661-9bdb-93d3c90fc17c)
+![image](https://github.com/KevalPatel2/Trip-Planner/assets/161761204/323baf60-74ad-4d6a-868b-ace43037556f)
